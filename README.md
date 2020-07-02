@@ -45,8 +45,6 @@ make also sure that <code>$_SERVER['DOCUMENT_ROOT']</code> exists and is set cor
 9. sudo a2enmod rewrite
 10. sudo systemctl restart apache2.service
 
-
-
 # Cockpit Next
 
 * Homepage: [http://getcockpit.com](https://getcockpit.com)
