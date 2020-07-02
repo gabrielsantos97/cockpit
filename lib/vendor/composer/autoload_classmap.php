@@ -157,6 +157,10 @@ return array(
     'PHPMailer\\PHPMailer\\SMTP' => $vendorDir . '/phpmailer/phpmailer/src/SMTP.php',
     'Parsedown' => $vendorDir . '/erusev/parsedown/Parsedown.php',
     'ParsedownExtra' => $vendorDir . '/erusev/parsedown-extra/ParsedownExtra.php',
+<<<<<<< HEAD
+=======
+    'ParsedownExtraTest' => $vendorDir . '/erusev/parsedown-extra/test/ParsedownExtraTest.php',
+>>>>>>> 1a3f996e5b1ae15a2aa00feeee0de1ece6b17a84
     'ZipStream\\Exception' => $vendorDir . '/maennchen/zipstream-php/src/Exception.php',
     'ZipStream\\Exception\\FileNotFoundException' => $vendorDir . '/maennchen/zipstream-php/src/Exception/FileNotFoundException.php',
     'ZipStream\\Exception\\FileNotReadableException' => $vendorDir . '/maennchen/zipstream-php/src/Exception/FileNotReadableException.php',
