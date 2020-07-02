@@ -10,7 +10,6 @@ make also sure that <code>$_SERVER['DOCUMENT_ROOT']</code> exists and is set cor
 
 ### Instalação
 
-<<<<<<< HEAD
 1. wget https://github.com/agentejo/cockpit/archive/master.zip
 2. unzip master.zip
 3. sudo mv cockpit-master /var/www/cockpit
@@ -19,7 +18,7 @@ make also sure that <code>$_SERVER['DOCUMENT_ROOT']</code> exists and is set cor
 6. sudo nano /etc/apache2/sites-available/cockpit.conf
 7. Cole o código abaixo:
 
-    <VirtualHost *:80>
+    `<VirtualHost *:80>
         ServerAdmin admin@example.com
         DocumentRoot /var/www/html/cockpit
         ServerName cockpit.cartorio.com
@@ -40,17 +39,12 @@ make also sure that <code>$_SERVER['DOCUMENT_ROOT']</code> exists and is set cor
             RewriteCond %{REQUEST_FILENAME} !-f
             RewriteRule ^(.*) index.php [PT,L]
         </Directory>
-    </VirtualHost>
+    </VirtualHost>`
 
 8. sudo a2ensite cockpit.conf
 9. sudo a2enmod rewrite
 10. sudo systemctl restart apache2.service
-=======
-1. Download Cockpit and put the cockpit folder in the root of your web project
-2. Make sure that the __/cockpit/storage__ folder and all its subfolders are writable
-3. Go to __/cockpit/install__ via Browser
-4. You're ready to use Cockpit :-)
-
+11. www.cockpit.cartorio.com/install via Browser
 
 ### Build (Only if you modify JS components)
 
